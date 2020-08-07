@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views.generic import ListView
 
 from .models import Category
-
+from django.contrib.auth.models import User
 
 # def categories_list(request):
 #     categories = Category.objects.all()
